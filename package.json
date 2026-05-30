@@ -1,0 +1,15 @@
+{
+  "name": "delight-lingua",
+  "private": true,
+  "workspaces": [
+    "client-web",
+    "server",
+    "client-mobile"
+  ],
+  "scripts": {
+    "client-web:start": "npm start --workspace=client-web",
+    "client-web:build": "npm run build --workspace=client-web",
+    "server:start": "npm start --workspace=server",
+    "build": "npm run client-web:build"
+  }
+}
