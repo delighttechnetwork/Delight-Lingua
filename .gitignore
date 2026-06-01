@@ -1,6 +1,12 @@
 node_modules/
+<<<<<<< HEAD
+.env
+dist/
+build/
+=======
 dist/
 build/
 .env
+>>>>>>> main
 *.log
 .DS_Store
